@@ -1,0 +1,82 @@
+{
+    "model": "YOLO11n",
+    "eval_split": "test",
+    "test_images": 997,
+    "test_instances": 998,
+    "precision": 0.996,
+    "recall": 0.992,
+    "mAP50": 0.994,
+    "mAP50_95": 0.946,
+    "per_class_metrics": {
+        "Bacterial_spot": {
+            "instances": 103,
+            "precision": 1.0,
+            "recall": 0.974,
+            "mAP50": 0.995,
+            "mAP50_95": 0.966
+        },
+        "Early_blight": {
+            "instances": 94,
+            "precision": 0.992,
+            "recall": 1.0,
+            "mAP50": 0.995,
+            "mAP50_95": 0.953
+        },
+        "Late_blight": {
+            "instances": 103,
+            "precision": 1.0,
+            "recall": 0.995,
+            "mAP50": 0.995,
+            "mAP50_95": 0.952
+        },
+        "Leaf_Mold": {
+            "instances": 101,
+            "precision": 0.998,
+            "recall": 1.0,
+            "mAP50": 0.995,
+            "mAP50_95": 0.928
+        },
+        "Septoria_leaf_spot": {
+            "instances": 101,
+            "precision": 0.995,
+            "recall": 0.98,
+            "mAP50": 0.995,
+            "mAP50_95": 0.936
+        },
+        "Spider_mites Two-spotted_spider_mite": {
+            "instances": 100,
+            "precision": 1.0,
+            "recall": 0.993,
+            "mAP50": 0.995,
+            "mAP50_95": 0.903
+        },
+        "Target_Spot": {
+            "instances": 100,
+            "precision": 0.994,
+            "recall": 0.98,
+            "mAP50": 0.985,
+            "mAP50_95": 0.94
+        },
+        "Tomato_Yellow_Leaf_Curl_Virus": {
+            "instances": 100,
+            "precision": 0.988,
+            "recall": 1.0,
+            "mAP50": 0.995,
+            "mAP50_95": 0.971
+        },
+        "Tomato__healthy": {
+            "instances": 103,
+            "precision": 0.998,
+            "recall": 1.0,
+            "mAP50": 0.995,
+            "mAP50_95": 0.952
+        },
+        "Tomato_mosaic_virus": {
+            "instances": 93,
+            "precision": 0.997,
+            "recall": 1.0,
+            "mAP50": 0.995,
+            "mAP50_95": 0.954
+        }
+    }
+}

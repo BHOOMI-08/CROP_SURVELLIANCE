@@ -1,0 +1,16 @@
+{
+    "input_image": "test_tomato_leaf.jpg",
+    "checkpoint": "E:\\Deep_learning(PBL)\\CropDiseaseSurveillance\\models\\segmentation\\checkpoints\\best_segmentation_resnet18_unet_512.pth",
+    "device_used": "cpu",
+    "inference_time_ms": 629.88,
+    "threshold_applied": 0.5,
+    "original_resolution": [
+        256,
+        256
+    ],
+    "diseased_pixels": 4757,
+    "total_pixels": 65536,
+    "diseased_area_percentage": 7.26,
+    "mean_confidence_diseased": 0.8163,
+    "task": "Binary foliar lesion segmentation"
+}

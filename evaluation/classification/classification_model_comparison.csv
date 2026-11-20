@@ -1,0 +1,4 @@
+Model,Test Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1 (%),Best Validation Accuracy (%)
+Custom CNN,90.48,85.39,90.59,86.82,90.52
+ResNet18,90.95,85.83,88.81,86.78,91.52
+MobileNetV2,92.14,88.39,90.07,88.97,92.42

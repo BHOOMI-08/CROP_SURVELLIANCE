@@ -1,0 +1,21 @@
+{
+    "name": "tomato-leaf-detection-u6mou-iisg2 (Roboflow Universe v1)",
+    "license": "CC BY 4.0",
+    "splits": {
+        "train": {
+            "images": 6928,
+            "labels": 6928
+        },
+        "valid": {
+            "images": 1969,
+            "labels": 1969
+        },
+        "test": {
+            "images": 997,
+            "labels": 997
+        }
+    },
+    "total_images": 9894,
+    "total_labels": 9894,
+    "excluded_validation_duplicates": 1
+}

@@ -1,0 +1,16 @@
+{
+    "model": "MobileNetV2",
+    "pretrained": "ImageNet",
+    "test_accuracy": 0.9214,
+    "macro_precision": 0.8839,
+    "macro_recall": 0.9007,
+    "macro_f1": 0.8897,
+    "best_validation_accuracy": 0.9242,
+    "epochs": 10,
+    "batch_size": 32,
+    "optimizer": "Adam (lr=0.001, weight_decay=1e-4)",
+    "loss": "Weighted CrossEntropyLoss",
+    "test_samples": 2100,
+    "source_notebook": "Plant_Village_FINAL.ipynb",
+    "evaluation_cell": 36
+}

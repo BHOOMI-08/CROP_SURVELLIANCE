@@ -1,0 +1,13 @@
+{
+    "model": "ResNet18 U-Net",
+    "checkpoint_epoch": 18,
+    "best_validation_dice": 0.6795100271701813,
+    "test_images": 133,
+    "decision_threshold": 0.5,
+    "macro_dice": 0.664,
+    "macro_iou": 0.5283,
+    "global_dice": 0.6955,
+    "global_iou": 0.5332,
+    "precision": 0.7556,
+    "recall": 0.6442
+}

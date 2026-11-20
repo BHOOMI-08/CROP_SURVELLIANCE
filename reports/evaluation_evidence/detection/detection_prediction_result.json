@@ -1,0 +1,22 @@
+{
+    "input_image": "test_tomato_leaf.jpg",
+    "checkpoint": "E:\\Deep_learning(PBL)\\CropDiseaseSurveillance\\models\\detection\\checkpoints\\best_tomato_detection.pt",
+    "device_used": "cpu",
+    "inference_time_ms": 3382.94,
+    "num_detections": 1,
+    "detections": [
+        {
+            "box_xyxy": [
+                30.09,
+                5.39,
+                230.51,
+                239.77
+            ],
+            "class_id": 1,
+            "class_name": "Early_blight",
+            "confidence": 0.8972,
+            "confidence_percentage": "89.72%"
+        }
+    ],
+    "dataset_provenance": "PlantVillage test tomato leaf image"
+}

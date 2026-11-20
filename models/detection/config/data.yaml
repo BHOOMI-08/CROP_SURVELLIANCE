@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Bacterial_spot', 'Early_blight', 'Late_blight', 'Leaf_Mold', 'Septoria_leaf_spot', 'Spider_mites Two-spotted_spider_mite', 'Target_Spot', 'Tomato_Yellow_Leaf_Curl_Virus', 'Tomato__healthy', 'Tomato_mosaic_virus']
+
+roboflow:
+  workspace: quynh-nguyen-tnu6q
+  project: tomato-leaf-detection-u6mou-iisg2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/quynh-nguyen-tnu6q/tomato-leaf-detection-u6mou-iisg2/dataset/1

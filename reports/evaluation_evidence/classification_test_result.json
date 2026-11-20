@@ -1,0 +1,22 @@
+{
+    "input_image_file": "test_tomato_leaf.jpg",
+    "input_image_path": "E:\\Deep_learning(PBL)\\CropDiseaseSurveillance\\data\\sample_images\\test_tomato_leaf.jpg",
+    "checkpoint_used": "E:\\Deep_learning(PBL)\\CropDiseaseSurveillance\\models\\classification\\checkpoints\\best_mobilenetv2.pth",
+    "device": "cpu",
+    "predicted_class": "Tomato___Early_blight",
+    "class_index": 1,
+    "confidence": 0.9393576979637146,
+    "confidence_percentage": "93.94%",
+    "all_probabilities": {
+        "Tomato___Bacterial_spot": 0.00013940093049313873,
+        "Tomato___Early_blight": 0.9393576979637146,
+        "Tomato___Late_blight": 0.0349738709628582,
+        "Tomato___Leaf_Mold": 0.004959314130246639,
+        "Tomato___Septoria_leaf_spot": 0.008327984251081944,
+        "Tomato___Spider_mites Two-spotted_spider_mite": 0.0033256590832024813,
+        "Tomato___Target_Spot": 0.004220547620207071,
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 0.00027786046848632395,
+        "Tomato___Tomato_mosaic_virus": 0.0024021537974476814,
+        "Tomato___healthy": 0.0020156316459178925
+    }
+}

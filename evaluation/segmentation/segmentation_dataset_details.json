@@ -1,0 +1,22 @@
+{
+    "name": "PlantSeg Tomato Leaf Disease Dataset",
+    "splits": {
+        "train": {
+            "images": 460,
+            "masks": 460,
+            "pairs": 460
+        },
+        "val": {
+            "images": 74,
+            "masks": 74,
+            "pairs": 74
+        },
+        "test": {
+            "images": 133,
+            "masks": 133,
+            "pairs": 133
+        }
+    },
+    "total_matched_pairs": 667,
+    "task": "Binary semantic segmentation of diseased foliar regions"
+}
