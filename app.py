@@ -137,11 +137,11 @@ def main():
 
     # Run Analysis Tabs
     tabs = st.tabs([
-        "🔬 Combined Surveillance",
-        "🏷️ Model 1: Classification",
-        "🎯 Model 2: Detection",
-        "🧩 Model 3: Segmentation",
-        "📊 Model Provenance & Metrics"
+        "Combined Surveillance",
+        "Model 1: Classification",
+        "Model 2: Detection",
+        "Model 3: Segmentation",
+        "Model Provenance & Metrics"
     ])
 
     # 1. Combined Surveillance Tab
